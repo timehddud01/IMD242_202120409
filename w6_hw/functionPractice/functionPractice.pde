@@ -58,5 +58,5 @@ void draw_house() {
   for (int i  = 0; i<= window_num; i++) { //창문은 1개에서 3개 사이로 그린다.
     fill(231, 245, 76);
     rect( box_w*.35 + (size_x)*.25 *i, box_h*.5 - (size_y)*.2, size_x*.18, (size_y)*.2 ); //집의 넓이와 높이에 따라 창문의 크기와 간격을 다르게 한다.
-}
+  }
 }
