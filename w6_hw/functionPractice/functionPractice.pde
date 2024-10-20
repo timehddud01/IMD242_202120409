@@ -55,7 +55,7 @@ void draw_house() {
   fill(92, random(80, 120), random(80, 120)); //색을 랜덤으로 바꿔준다.
   rect(box_w*.5, box_h*.5 - (size_y)*.5, size_x+10, random(10, 20) );//지붕 그리기
   int window_num = int(random(1, 3)); //색을 랜덤으로 바꿔준다.
-  for (int i  = 0; i<= window_num; i++) { //창문은 1개에서 3개 사이로 그린다.
+  for (int i  = 0; i<= window_num; i++) { //창문은 2개에서 3개 사이로 그린다.
     fill(231, 245, 76);
     rect( box_w*.35 + (size_x)*.25 *i, box_h*.5 - (size_y)*.2, size_x*.18, (size_y)*.2 ); //집의 넓이와 높이에 따라 창문의 크기와 간격을 다르게 한다.
   }
