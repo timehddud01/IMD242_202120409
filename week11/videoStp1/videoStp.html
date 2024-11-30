@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.11.1/lib/p5.min.js"></script>
-    <!-- //CDN 에서 가져오는 방법 // -->
+    <!-- p5.js라이브러리를 CDN(제 3자 서버)에서 가져오는 것 -->
     <!-- <script src="./script/sketch.js" defer></script> -->
     <script src="./script/sketch2.js" defer></script>
-    <!-- //defer꼭 넣어주기 - 지연실행시키는 방법 왜 필요한지 더 찾아보기 //연결 -->
+    <!-- defer ==> html이 완전히 로드 된 후 스크립트를 실행함 -->
+    <!-- defer가 없으면, 기본적으로 html 렌더링을 먼추고 스크립트를 읽으러 가기 때문에 충돌 가능성이 있다 -->
     <style>
       body {
         background-color: black;

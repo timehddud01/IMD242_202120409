@@ -38,7 +38,7 @@ function draw() {
     circle(x * 10 + 5, y * 10 + 5, dia);
   }
 }
-//processing에서는 pixle[]한 칸에 [R,G,B,A]가 들어가지만 P5.JS는
+//processing에서는 pixel[]한 칸에 [R,G,B,A]가 들어가지만 P5.JS는
 //Pixel[n+0] = R
 //Pixel[n+1] = G
 //Pixel[n+2] = B
