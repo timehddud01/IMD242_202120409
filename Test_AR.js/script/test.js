@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-  background(0); // 검정색 배경
+  background(0, 0, 0, 0); // 검정색 배경
 
   // 회전하는 녹색 박스
   push();
