@@ -16,11 +16,19 @@
       }
       canvas {
         display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10; /* AR.js는 z-index가 1이어야 카메라 아래에 렌더링됩니다. */
       }
     </style>
   </head>
   <body>
+    <!-- AR.js와 A-Frame을 통한 AR 마커 처리 -->
     <a-scene embedded arjs>
+      <a-marker preset="hiro">
+        <a-box position="0 0.5 0" material="color: red;"></a-box>
+      </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
   </body>
