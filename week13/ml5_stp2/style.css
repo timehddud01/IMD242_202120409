@@ -1,0 +1,24 @@
+:root {
+  --fWeight: 900; /* font weight를 실시간으로 바꿔준다. */
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+p {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 2.25rem;
+  font-optical-sizing: auto;
+  /* font weight를 실시간으로 바꿔준다. */
+  font-weight: var(--fWeight);
+  /* css에서 변수는 --로 시작해야 함  */
+  font-style: normal;
+  font-variation-settings: 'wdth' 100, 'YTLC' 500;
+}

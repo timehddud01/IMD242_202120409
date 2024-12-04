@@ -1,0 +1,27 @@
+<!-- IOS에서 webXR을 지원하지 않는 관계로 AR.js와 A-Frame이라는 것을 사용해 본다 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testing_AR</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js/aframe/build/aframe-ar.js"></script>
+
+    <!-- p5.js를 사용할 것이므로 p5.AR도 추가 -->
+    <script src="https://cdn.jsdelivr.net/gh/aksub99/p5.AR/p5.AR.js"></script>
+
+    <script src="./script/test.js" defer></script>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      canvas {
+        display: block;
+      }
+    </style>
+  </head>
+  <body></body>
+</html>
