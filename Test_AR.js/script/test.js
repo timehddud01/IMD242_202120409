@@ -32,4 +32,4 @@ function draw() {
 
   // 회전 속도 업데이트
   rot += rotSpeed;
-}
+} //12.4 오늘은 여기까지

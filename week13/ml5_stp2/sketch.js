@@ -85,10 +85,10 @@ function draw() {
     let normalMouth = mouthDist / faceWidth;
     console.log('정규화된 입: ', normalMouth);
     // let fWeight = map(mouthDist, 0, 100, 100, 900);
-    let fWeight = map(mouthDist, 0, 0.33, 100, 900);
+    let fWeight = map(normalMouth, 0, 0.33, 100, 900);
     // console.log(mouthDist);
 
-    //document는 js가 실행되고 있는 html을 가리키게 된다.
+    //document는 js가 실행되고 있는 html을 가리키게 된다.css스타일 적용
     document.documentElement.style.setProperty('--fWeight', fWeight);
   }
 }
